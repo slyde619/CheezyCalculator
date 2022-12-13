@@ -58,6 +58,10 @@ body{
     background-color: #d2c6b7;
     color: #2f2e2d;
 }
+.calc-button:last-child:hover{
+    background-color: #b5a188;
+
+}
 
 .calc-button:hover{
     background-color: #a7a39e;
