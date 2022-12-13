@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html{
+    box-sizing: border-box;}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 3em 0;
+    display: grid;
+    place-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.wrapper{
+    width: 400px;
+    background-color: #192734;
+    color: #fff;
+}
+
+/* Color Codes
+    #F3ECE4
+    #233A26
+    #ABAFA8
+    #A4A29B
+*/
+
+.screen{
+    text-align: right;
+    padding: 1.25em .3125em;
+    font-size: 2.5rem;
+}
+
+.calc-btn__row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.calc-btn__row:last-child{
+    margin-bottom: 0;
+}
+
+.calc-button{
+    background-color: #F3ECE4;
+    color: #2f2e2d;
+    border: 0;
+    font-size: 2.5rem;
+    height: 100px;
+    flex-basis: 24.5%;
+}
+
+.calc-button:last-child{
+    background-color: #d2c6b7;
+    color: #2f2e2d;
+}
+
+.calc-button:hover{
+    background-color: #a7a39e;
+}
+
+.calc-button:active{
+    background-color: #d2c6b7;
+}
+
+.double{
+    flex-basis: 49.7%;
+}
+
+.triple{
+    flex-basis: 74.8%;
+}
