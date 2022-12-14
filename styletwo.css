@@ -26,9 +26,9 @@ h5{
 .wrapper{
     width: 400px;
     color: #b5b5b5;
-    background-color: #fff;
-    box-shadow:  0px 12px 34px 10px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow:  0px 12px 34px 10px rgba(0, 0, 0, 0.5);
+    background-color: #f8f8f8;
+    box-shadow:  0px 4px 12px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:  0px 4px 12px 10px rgba(0, 0, 0, 0.5);
     border-radius: 14px;
 }
 
@@ -38,6 +38,8 @@ h5{
     font-size: 2.8rem;
     color: #ff646c;
     font-weight: 800;
+    background: #fff;
+    border-radius: 14px;
 }
 
 .screen__operation{
@@ -45,14 +47,11 @@ h5{
     color: #b5b5b5;
 }
 
-.calc-btn{
-    background: #f8f8f8;
-}
 
 .calc-btn__row{
     display: flex;
     justify-content: space-between;
-    margin: 4.5%;
+    margin: 3%;
 }
 
 
@@ -61,7 +60,7 @@ h5{
     background: transparent;
     font-size: 1.55rem;
     height: 70px;
-    flex-basis: 17.8%;
+    flex-basis: 17.7%;
     color: #7f7c7c;
     font-weight: 400;
 }
